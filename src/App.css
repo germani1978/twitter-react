@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+
+/* MENU */
+.tile{
+  display:flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+}
+.tile:hover{
+  background-color: #eee;
+  border-radius: 20px;
+}
+.icono-tile{
+  padding-right: 10px;
+}
+.boton-twittear{
+  background-color: hsl(210, 100%, 56%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.boton-twittear:hover{
+  background-color: hsl(210, 100%, 45%);
+}
+
+
+/* PERFIL */
+.perfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  bottom: 5px;
+}
+.perfil:hover {
+  background-color: #eee;
+  border-radius: 20px;
+}
+.foto-perfil{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.perfil p{
+  padding-left: 5px;
+  margin: 0;
+  font-size: 12px;
+}
+.datos-perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.datos-perfil .subtitulo{
+  color: gray;
+}
+
