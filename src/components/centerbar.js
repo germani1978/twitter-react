@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ParaTi } from "./parati";
+import { Siguiendo } from "./siguiendo";
 
 export function CenterBar(params) {
 
@@ -16,12 +18,12 @@ export function CenterBar(params) {
                 <button onClick={onClickDos}>Siguiendo</button>
             </div>
             
+            {/* PANEL */}
             <div className="timeline">
-                {/* PANEL */}
-                if (pagUno) {
-                    <p>Uno</p>
-                }else{
-                    <p>Dos</p>
+                {
+                    pagUno 
+                    ? <ParaTi/>
+                    : <Siguiendo/>
                 }
             </div>
 

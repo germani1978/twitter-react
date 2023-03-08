@@ -1,6 +1,7 @@
 import { FaHome, FaHashtag, FaRegBell, FaRegEnvelope, FaRegBookmark, FaListUl, FaRegUser, FaEllipsisH } from "react-icons/fa";
-
+import Rostro from "./rostro"
 import foto from "../images/foto1.jpg";
+import BotonTwittear from "./botontwittear";
 
 function Tile(params) {
     return <button className="tile">
@@ -9,12 +10,13 @@ function Tile(params) {
     </button>
 }
 
-function BotonTwittear(params) {
-    return <button className="boton-twittear">Twittear</button>
-}
+// function BotonTwittear(params) {
+//     return <button className="boton-twittear">Twittear</button>
+// }
 
 function Profile(params) {
     return <button className="perfil">
+        <Rostro foto={foto}/>
         <img className="foto-perfil" alt="Mi-imagen" src={foto} />
         <div className="datos-perfil">
             <p>Germani</p>

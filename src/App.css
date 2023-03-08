@@ -70,3 +70,31 @@
 }
 
 /* PANEL CENTRAL */
+.panel-escribir{
+  display: flex;
+  flex-direction: column;
+  
+}
+.iconos-panel-escribir{
+  display: flex;
+}
+.input-panel-escribir{
+  display: flex;
+}
+.twit{
+ display: flex;
+ flex-direction: column;
+}
+.input-twit{
+  display: flex;
+  align-items: center;
+}
+.iconos-twit{
+  display: flex;
+  align-items: center;
+}
+.icon-twit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
