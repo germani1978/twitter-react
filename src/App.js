@@ -6,9 +6,9 @@ import { RightBar } from './components/rightbar';
 function App() {
   return (
     <div>
-      <LeftBar/>
+      {/* <LeftBar/> */}
       <CenterBar/>
-      <RightBar/>
+      {/* <RightBar/> */}
     </div>
   );
 }

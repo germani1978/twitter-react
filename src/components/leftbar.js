@@ -1,6 +1,6 @@
 import { FaHome, FaHashtag, FaRegBell, FaRegEnvelope, FaRegBookmark, FaListUl, FaRegUser, FaEllipsisH } from "react-icons/fa";
 
-import foto from "../images/foto.jpg";
+import foto from "../images/foto1.jpg";
 
 function Tile(params) {
     return <button className="tile">
