@@ -11,11 +11,11 @@ export function CenterBar(params) {
 
     return (
         <div className="center">
-
+            <p className="titulo">Inicio</p>
             {/* BOTONES SUPERIORES */}
-            <div className="btn-top">
-                <button onClick={onClickUno}>Para ti</button>
-                <button onClick={onClickDos}>Siguiendo</button>
+            <div id="btn-top">
+                <button className="btn-center" type="text" onClick={onClickUno}>Para ti</button>
+                <button className="btn-center" onClick={onClickDos}>Siguiendo</button>
             </div>
             
             {/* PANEL */}

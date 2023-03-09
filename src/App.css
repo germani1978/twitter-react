@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -53,6 +55,7 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  margin: 5px;
 }
 .perfil p{
   padding-left: 5px;
@@ -70,28 +73,75 @@
 }
 
 /* PANEL CENTRAL */
+.center{
+  border: 1px solid gray;
+  border-top: none;
+}
+.titulo{
+  margin: 5px 10px;
+}
+#btn-top{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}
+.btn-center{
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px  50px;
+}
+.btn-center:hover{
+  background-color: #f9f9f9
+}
+
+
 .panel-escribir{
   display: flex;
   flex-direction: column;
-  
+  border-bottom: 1px solid grey;
 }
 .iconos-panel-escribir{
   display: flex;
+  margin: 5px 10px;
+  align-items: center;
 }
 .input-panel-escribir{
   display: flex;
+  margin: 5px 10px;
 }
+.input-only{
+  margin: 5px 10px;
+}
+
+
+/* TWIT */
 .twit{
  display: flex;
  flex-direction: column;
+ padding: 5px 10px;
+ border-bottom: 1px solid gray;
+}
+.text-twit{
+  padding: 0;
+  /* padding-left: 50px; */
+  margin: 0;
+  margin-bottom: 5px;
 }
 .input-twit{
   display: flex;
   align-items: center;
 }
+.foto-twit{
+  width: 200px;
+  margin: auto;
+  
+}
 .iconos-twit{
   display: flex;
+  justify-content: space-between;
   align-items: center;
+
 }
 .icon-twit{
   display: flex;

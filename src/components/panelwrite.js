@@ -14,7 +14,7 @@ export function PanelEscribir(params) {
     return <div className='panel-escribir'>
         <div className='input-panel-escribir'>
             <Rostro foto={foto} />
-            <input type="text" placeholder='Que esta pasando' />
+            <input className='input-only' type="text" placeholder='Que esta pasando' />
         </div>
         <div className='iconos-panel-escribir'>
             <InsertPhotoIcon />

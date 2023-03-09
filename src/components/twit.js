@@ -17,16 +17,18 @@ function TwitIconos(params) {
 }
 
 function Twet(params) {
-    const {foto, name,text,nameCount,time, msg, view, ret, like,  } = params
+    const {foto,post, name,text,nameCount,time, msg, view, ret, like,  } = params
 
     return <div className='twit'>
         <div className='input-twit'>
             <Rostro foto={foto} />
-            {name}
-            {nameCount}
-            {time}horas
+            <p>{name}</p>
+            <p>{nameCount}</p>
+            <p>{time}horas</p>
         </div>
-        {text}
+        <p className="text-twit">{text}</p>
+        { post && <img className="foto-twit" alt="img" src={post}/>  }
+        
         <div className='iconos-twit'>
             <TwitIconos tipo={ChatBubbleOutlineIcon} text={msg} />
             <TwitIconos tipo={RepeatIcon} text={ret} />

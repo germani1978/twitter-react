@@ -17,7 +17,6 @@ function Tile(params) {
 function Profile(params) {
     return <button className="perfil">
         <Rostro foto={foto}/>
-        <img className="foto-perfil" alt="Mi-imagen" src={foto} />
         <div className="datos-perfil">
             <p>Germani</p>
             <p className="subtitulo">@germani</p>
