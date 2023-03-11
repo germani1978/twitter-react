@@ -22,7 +22,7 @@ function Profile(params) {
 }
 
 export function LeftBar(params) {
-    return <ul className="lista-menu">
+    return <div className="leftbar">
         <Tile kind={FaTwitter}/>
         <Tile kind={FaHome} text="Home" />
         <Tile kind={FaHashtag} text="Explorar" />
@@ -36,5 +36,5 @@ export function LeftBar(params) {
             <BotonTwittearBig className="btn-left" />
         </div>
         <Profile />
-    </ul>
+    </div>
 }

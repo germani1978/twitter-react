@@ -33,7 +33,7 @@ function TemasTrending(params) {
     </div>
 }
 export function RightBar(params) {
-    return <div className="right-bar">
+    return <div className="rightbar">
         <PanelBuscar/>
         <TemasTrending/>
     </div>
