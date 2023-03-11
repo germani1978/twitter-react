@@ -1,4 +1,3 @@
-import { Icon } from "@mui/material"
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function PanelBuscar(params) {

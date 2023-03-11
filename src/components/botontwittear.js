@@ -1,7 +1,11 @@
-function BotonTwittear(params) {
+export function BotonTwittearBig(params) {
     return (
-    <button className="boton-twittear">Twittear</button>
+    <button className="boton-twittear-big">Twittear</button>
     )
 }
 
-export default BotonTwittear
+export function BotonTwittearSmall(params) {
+    return (
+    <button className="boton-twittear-small">Twittear</button>
+    )
+}

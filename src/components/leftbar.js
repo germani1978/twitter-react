@@ -1,7 +1,7 @@
-import { FaHome, FaHashtag, FaRegBell, FaRegEnvelope, FaRegBookmark, FaListUl, FaRegUser, FaEllipsisH } from "react-icons/fa";
+import { FaHome, FaHashtag, FaRegBell, FaRegEnvelope, FaRegBookmark, FaListUl, FaRegUser, FaEllipsisH, FaTwitter } from "react-icons/fa";
 import Rostro from "./rostro"
 import foto from "../images/foto1.jpg";
-import BotonTwittear from "./botontwittear";
+import {BotonTwittearBig} from "./botontwittear";
 
 function Tile(params) {
     return <button className="tile">
@@ -13,7 +13,7 @@ function Tile(params) {
 
 function Profile(params) {
     return <button className="perfil">
-        <Rostro foto={foto}/>
+        <Rostro foto={foto} />
         <div className="datos-perfil">
             <p>Germani</p>
             <p className="subtitulo">@germani</p>
@@ -23,6 +23,7 @@ function Profile(params) {
 
 export function LeftBar(params) {
     return <ul className="lista-menu">
+        <Tile kind={FaTwitter}/>
         <Tile kind={FaHome} text="Home" />
         <Tile kind={FaHashtag} text="Explorar" />
         <Tile kind={FaRegBell} text="Notificaciones" />
@@ -31,7 +32,9 @@ export function LeftBar(params) {
         <Tile kind={FaListUl} text="Listas" />
         <Tile kind={FaRegUser} text="Perfil" />
         <Tile kind={FaEllipsisH} text="Mas opciones" />
-        <BotonTwittear />
+        <div className="btn-left">
+            <BotonTwittearBig className="btn-left" />
+        </div>
         <Profile />
     </ul>
 }
