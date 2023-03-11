@@ -10,9 +10,6 @@ function Tile(params) {
     </button>
 }
 
-// function BotonTwittear(params) {
-//     return <button className="boton-twittear">Twittear</button>
-// }
 
 function Profile(params) {
     return <button className="perfil">
@@ -25,7 +22,7 @@ function Profile(params) {
 }
 
 export function LeftBar(params) {
-    return <ul>
+    return <ul className="lista-menu">
         <Tile kind={FaHome} text="Home" />
         <Tile kind={FaHashtag} text="Explorar" />
         <Tile kind={FaRegBell} text="Notificaciones" />
