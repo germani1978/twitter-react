@@ -1,0 +1,145 @@
+[
+    {
+      "name": "Juan",
+      "id": "123J",
+      "siguiendo": [
+        {
+          "id": "123M"
+        },
+        {
+          "id": "123P"
+        }
+      ],
+      "seguidores": [
+        {
+          "id": "123M"
+        },
+        {
+          "id": "123S"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "124",
+          "tweet": "Esto es un tweet",
+          "time":"1243567734"
+        },
+        {
+          "id": "125",
+          "tweet": "Esto es otro tweet",
+          "time":"1243567734"
+        },
+        {
+          "id": "126",
+          "tweet": "Esto es diferente tweet",
+          "time":"1243567734"
+        }
+     
+      ]
+    },
+
+    {
+      "name": "Maria",
+      "id": "123M",
+      "siguiendo": [
+        {
+          "id": "123J"
+        },
+        {
+          "id": "123S"
+        }
+      ],
+      "seguidores": [
+        {
+          "id": "123J"
+        },
+        {
+          "id": "123P"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "b124",
+          "tweet": "Esto es un twee de Maria",
+          "time":"1243567734"
+        },
+        {
+          "id": "b125",
+          "tweet": "Esto es el segundo tweet de Maria",
+          "time":"1243567734"
+        }
+      ]
+    },
+
+    {
+      "name": "Pedro",
+      "id": "123P",
+      "siguiendo": [
+        {
+          "id": "123M"
+        },
+        {
+          "id": "123S"
+        }
+      ],
+      "seguidores": [
+        {
+          "id": "123J"
+        },
+        {
+          "id": "123S"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "c124",
+          "tweet": "Esto es un tweet de Pedro",
+          "time":"1243567734"
+        },
+        {
+          "id": "c125",
+          "tweet": "Esto es un tweet 2 de Pedro ",
+          "time":"1243567734"
+        },
+        {
+          "id": "c126",
+          "tweet": "Esto es un tweet 3 de Pedro",
+          "time":"1243567734"
+        }
+      ]
+    },
+
+    {
+      "name": "Silvia",
+      "id": "123S",
+      "siguiendo": [
+        {
+          "id": "123J"
+        },
+        {
+          "id": "123P"
+        }
+      ],
+      "seguidores": [
+        {
+          "id": "123M"
+        },
+        {
+          "id": "123P"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "124z",
+          "tweet": "Esto es un tweet de Silvia",
+          "time":"1243567734"
+        },
+        {
+          "id": "125z",
+          "tweet": "Esto es un tweet Silvia 2",
+          "time":"1243567734"
+        }
+      ]
+    }
+
+  ]

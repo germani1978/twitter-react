@@ -1,16 +1,15 @@
 import './App.css';
-import { CenterBar } from './components/centerbar';
-import { LeftBar } from './components/leftbar';
-import { RightBar } from './components/rightbar';
+import { DashBoardMy } from './components/dashboard';
+import Init from './components/init';
+
 
 function App() {
-  return (
-    <div className='App'>
-      <LeftBar/>
-      <CenterBar/>
-      <RightBar/>
-    </div>
-  );
+
+   Init(); // Registra la app en firebase
+
+   return  <div className='App'>
+      <DashBoardMy/>
+   </div>
 }
 
 export default App;
